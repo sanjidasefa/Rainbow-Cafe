@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "icon": "🌿",
+    "title": "Fresh Ingredients",
+    "description": "We source fresh vegetables and spices every morning — no frozen items, ever."
+  },
+  {
+    "id": 2,
+    "icon": "🧑‍🍳",
+    "title": "Expert Chefs",
+    "description": "Our chefs bring over 15 years of experience in authentic cuisine to every plate."
+  },
+  {
+    "id": 3,
+    "icon": "🪑",
+    "title": "Cozy Ambiance",
+    "description": "A warm and relaxing atmosphere where you can unwind, chat, and enjoy great food."
+  },
+  {
+    "id": 4,
+    "icon": "🚀",
+    "title": "Fast Delivery",
+    "description": "Hot food at your door in 30 minutes — freshness and speed, guaranteed."
+  }
+]
