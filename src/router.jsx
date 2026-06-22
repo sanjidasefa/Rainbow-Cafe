@@ -4,6 +4,7 @@ import Home from './components/Home/Home';
 import MainLayout from './Layout/MainLayout';
 import Error from './Shared/Error';
 import Menu from './components/FoodMenu/Menu';
+import About from './components/About/About';
 
 const router = createBrowserRouter([
   {
@@ -19,6 +20,10 @@ const router = createBrowserRouter([
         path:'/menu',
         element: <Menu></Menu>,
         loader: () => fetch('/items.json').then((res) => res.json())
+      },
+      {
+        path: '/About',
+        element:<About></About>
       }
     ]
   },

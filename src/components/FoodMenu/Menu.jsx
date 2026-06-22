@@ -14,7 +14,7 @@ const Menu = () => {
         </div>
 
         <div className="flex flex-col md:flex-row justify-center gap-8 ">
-          {menuItems.slice(0, 3).map((item) => {
+          {menuItems.map((item) => {
             return (
               <div key={item.id} className=' bg-white rounded-2xl'>
                 <div>
